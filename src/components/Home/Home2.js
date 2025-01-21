@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -96,12 +96,16 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://leetcode.com/u/selvaleetcode007"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                 <img
+                  src="https://user-images.githubusercontent.com/63964149/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.png"
+                  alt="LeetCode"
+                  style={{ width: "24px", height: "24px" }}
+                />
                 </a>
               </li>
             </ul>

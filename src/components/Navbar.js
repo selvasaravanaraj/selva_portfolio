@@ -3,12 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 // import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
+//import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+//import { CgGitFork } from "react-icons/cg";
 // import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
+  // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -39,10 +39,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <AiOutlineMail style={{ marginRight: "8px" }} />
-          <h5>selvasaravanarajj@gmail.com</h5>
-        </Navbar.Brand>
+      <Navbar.Brand href="/" className="d-flex align-items-center">
+  <AiOutlineMail style={{ marginRight: "8px", fontSize: "1.5em" }} />
+  <h5 style={{ margin: 0 }}>selvasaravanarajj@gmail.com</h5>
+</Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -93,7 +94,7 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-              <Nav.Item className="fork-btn">
+              {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/selvasaravanaraj/Portfolio"
                 target="_blank"
@@ -102,7 +103,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

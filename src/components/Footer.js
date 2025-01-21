@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+
 import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -57,7 +59,11 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <img
+                  src="https://user-images.githubusercontent.com/63964149/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.png"
+                  alt="LeetCode"
+                  style={{ width: "24px", height: "24px" }}
+                />
               </a>
             </li>
           </ul>
