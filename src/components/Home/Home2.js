@@ -101,11 +101,15 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                 <img
-                  src="https://user-images.githubusercontent.com/63964149/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.png"
-                  alt="LeetCode"
-                  style={{ width: "24px", height: "24px" }}
-                />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M20.455 9.293a1.273 1.273 0 0 0-1.545.909l-.091.455a6.364 6.364 0 1 1-3.091-6.545 1.364 1.364 0 1 0 1.364-2.364 9.091 9.091 0 1 0 3.182 9.636l.182-.818a1.273 1.273 0 0 0-.91-1.273zM16 11.182a1.455 1.455 0 1 1-2.909 0 1.455 1.455 0 0 1 2.91 0z" />
+                  </svg>
                 </a>
               </li>
             </ul>
