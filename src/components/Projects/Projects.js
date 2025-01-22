@@ -59,8 +59,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Online_Tutor"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="The Online Tutor website is a student-oriented platform developed using Vite.js, designed to provide easy access to educational resources and materials. It offers a smooth, fast, and interactive browsing experience, thanks to the use of Vite.js, which ensures quick page loads and responsive navigation. The site is intended for students to engage with learning content, view available resources, and access information in an organized, user-friendly manner."
               ghLink="https://github.com/selvasaravanaraj/online-tutor"
             />
           </Col>
