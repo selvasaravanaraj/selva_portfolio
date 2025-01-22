@@ -5,6 +5,7 @@ import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/Online-tutor.png";
 import editor from "../../Assets/Projects/Voice-assistant.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 import chatify from "../../Assets/Projects/Alcohol-detection.jpeg";
 //import suicide from "../../Assets/Projects/suicide.png";
 //import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -35,13 +36,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={portfolio}
               isBlog={false}
-              title="Voice-assistant"
-              description="A Python-based voice assistant capable of performing tasks, retrieving information, and interacting with users through natural language processing (NLP). It leverages speech recognition and synthesis libraries to understand voice commands and respond dynamically. This system integrates APIs for features like web searches, task automation, and smart device control, offering a customizable and interactive user experience."
-              ghLink="https://github.com/selvasaravanaraj/Voice-Assisten"            
+              title="portfolio"
+              description="This portfolio project is designed to showcase the work and skills of [selva saravana raj]. The website features sections such as About Me, Projects, Skills, and Contact, and is built using technologies like React, Bootstrap, and JavaScript. The project highlights [specific technologies or skills, like web development, UI/UX design, etc.], with responsive design for both desktop and mobile views."
+              ghLink="selva_portfolio"            
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
