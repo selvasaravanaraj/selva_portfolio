@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import emotion from "../../Assets/Projects/Online-tutor.png";
 import editor from "../../Assets/Projects/Voice-assistant.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
-import chatify from "../../Assets/Projects/Alcohol-detection.jpeg";
+import chatify from "../../Assets/Projects/ADNS1.png";
 //import suicide from "../../Assets/Projects/suicide.png";
 //import bitsOfCode from "../../Assets/Projects/blog.png";
 
