@@ -27,7 +27,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Alcohol-detection"
-              description="This project implements an IoT-driven alcohol detection system, integrating high-sensitivity ethanol sensors to measure alcohol concentration. The data is processed using Python for precise analysis, enabling real-time alerts or automated actions for safety-critical applications such as vehicular control systems and industrial hazard prevention."
+              description="This project introduces an intelligent vehicle safety system designed to prevent drunk driving. The system uses an MQ-3 alcohol sensor to detect the driver's alcohol level. If the detected level is above a predefined threshold, it disables the vehicle and determines its real-time location via a GPS module. Utilizing Twilio API, the system sends the car’s location to law enforcement or emergency contacts for timely action. By integrating advanced sensor technology and real-time communication, this system aims to reduce drunk-driving incidents and enhance road safety through rapid response and tracking capabilities.
+"
               ghLink="https://github.com/selvasaravanaraj/Alcohol-Detection-using-IOT-with-python"
             />
           </Col>
@@ -39,7 +40,16 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="portfolio"
-              description="This portfolio project is designed to showcase the work and skills of [selva saravana raj]. The website features sections such as About Me, Projects, Skills, and Contact, and is built using technologies like React, Bootstrap, and JavaScript. The project highlights [specific technologies or skills, like web development, UI/UX design, etc.], with responsive design for both desktop and mobile views."
+              description="My personal portfolio selva saravana raj which features some of my github projects as well as my resume and technical skills.
+
+This project was built using these technologies.
+
+React.js|
+Node.js|
+Express.js|
+CSS3|
+VsCode|
+Vercel"
               ghLink="selva_portfolio"            
             />
           </Col>
@@ -59,7 +69,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Online_Tutor"
-              description="The Online Tutor website is a student-oriented platform developed using Vite.js, designed to provide easy access to educational resources and materials. It offers a smooth, fast, and interactive browsing experience, thanks to the use of Vite.js, which ensures quick page loads and responsive navigation. The site is intended for students to engage with learning content, view available resources, and access information in an organized, user-friendly manner."
+              description="The Online Tutor website is a student-oriented platform developed using Vite.js, designed to provide easy access to educational resources and materials. It offers a smooth, fast, and interactive browsing experience, the use of Vite.js, which ensures quick page loads and responsive navigation. The site is intended for students to engage with learning content, view available resources, and access information in an organized, user-friendly manner."
               ghLink="https://github.com/selvasaravanaraj/online-tutor"
             />
           </Col>
