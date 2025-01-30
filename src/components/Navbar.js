@@ -37,7 +37,7 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex align-items-center">
           <AiOutlineMail style={{ marginRight: "5px", fontSize: "1.3em" }} />
           <span style={{ fontSize: "1rem", whiteSpace: "nowrap" }}>
-            sarozz21051@gmail.com
+            selvasaravanarajj@gmail.com
           </span>
         </Navbar.Brand>
 
