@@ -7,7 +7,6 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineMail,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -33,13 +32,12 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* Updated Email Section */}
-        <Navbar.Brand href="/" className="d-flex align-items-center">
-          <AiOutlineMail style={{ marginRight: "5px", fontSize: "1.3em" }} />
+        {/* Updated Email Section - Removed Icon */}
+        {/* <Navbar.Brand href="/" className="d-flex align-items-center">
           <span style={{ fontSize: "1rem", whiteSpace: "nowrap" }}>
-            selvasaravanarajj@gmail.com
+          𝓼𝓮𝓵𝓿𝓪
           </span>
-        </Navbar.Brand>
+        </Navbar.Brand> */}
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
