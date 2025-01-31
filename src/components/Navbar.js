@@ -33,11 +33,11 @@ function NavBar() {
     >
       <Container>
         {/* Updated Email Section - Removed Icon */}
-        {/* <Navbar.Brand href="/" className="d-flex align-items-center">
+        <Navbar.Brand href="/" className="d-flex align-items-center">
           <span style={{ fontSize: "1rem", whiteSpace: "nowrap" }}>
-          𝓼𝓮𝓵𝓿𝓪
+          ƧΣᄂVΛ'Ƨ
           </span>
-        </Navbar.Brand> */}
+        </Navbar.Brand>
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
