@@ -6,7 +6,7 @@
 ## Built With
 
 My personal portfolio <a href="https://selva-portfolio.vercel.app/project" target="_blank"></a> which features some of my github projects as well as my resume and technical skills.<br/>
-
+live link https://selva-portfolio.vercel.app/
 This project was built using these technologies.
 
 - React.js
