@@ -9,7 +9,7 @@ import portfolio from "../../Assets/Projects/portfolio.png";
 import chatify from "../../Assets/Projects/ADNS1.png";
 //import suicide from "../../Assets/Projects/suicide.png";
 //import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import MTBS from "../../Assets/Projects/MTBS-1.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -73,8 +73,16 @@ Vercel"
               ghLink="https://github.com/selvasaravanaraj/online-tutor"
             />
           </Col>
-            
-           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MTBS}
+              isBlog={false}
+              title="Wallet Based Ticket Booking"
+              description="A Wallet-Based Movie Ticket Booking System is a digital platform that allows users to seamlessly book movie tickets and make payments using an integrated digital wallet. This system enhances the user experience by providing a fast, secure, and convenient way to reserve seats, manage transactions, and access movie-related information."
+              ghLink="https://github.com/selvasaravanaraj/MULTIPLEX"
+            />
+          </Col>
+          
         </Row>
       </Container>
     </Container>
