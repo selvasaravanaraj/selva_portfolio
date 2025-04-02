@@ -29,7 +29,7 @@ function Projects() {
               title="Alcohol-detection"
               description="This project introduces an intelligent vehicle safety system designed to prevent drunk driving. The system uses an MQ-3 alcohol sensor to detect the driver's alcohol level. If the detected level is above a predefined threshold, it disables the vehicle and determines its real-time location via a GPS module. Utilizing Twilio API, the system sends the car’s location to law enforcement or emergency contacts for timely action. By integrating advanced sensor technology and real-time communication, this system aims to reduce drunk-driving incidents and enhance road safety through rapid response and tracking capabilities.
 "
-              ghLink="https://github.com/selvasaravanaraj/Alcohol-Detection-using-IOT-with-python"
+              ghLink="https://github.com/selvasaravanaraj/Automobile-safety-enhancement-through-alcohol-detection-and-notification-systems"
             />
           </Col>
 
