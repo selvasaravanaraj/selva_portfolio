@@ -50,7 +50,7 @@ function Footer() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://leetcode.com/u/selvaleetcode007/"
+                  href="https://leetcode.com/u/selvam-07"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
