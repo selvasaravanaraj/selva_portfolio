@@ -16,7 +16,7 @@ function Footer() {
           <h3>selvasaravanarajj@gmail.com</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Selva</h3>
+          <h3>Copyright © {year} SelvaSaravana</h3>
         </Col>
         <Col md="4" className="footer-body">
           <IconContext.Provider value={{ color: "white", size: "1.5em" }}>
